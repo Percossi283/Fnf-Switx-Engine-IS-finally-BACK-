@@ -44,6 +44,13 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			'popUpRating',
 			BOOL);
 		addOption(option);
+		
+		var option:Option = new Option('Instant Respawn',
+			"Instantly respawn when you die.",
+			'instaRestart',
+			'bool',
+			false);
+		addOption(option);
 
 		var option:Option = new Option('Disable Reset Button',
 			"If checked, pressing Reset won't do anything.",
