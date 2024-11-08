@@ -49,7 +49,7 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			"Instantly respawn when you die.",
 			'instaRestart',
 			'bool',
-			false);
+			BOOL);
 		addOption(option);
 
 		var option:Option = new Option('Disable Reset Button',
